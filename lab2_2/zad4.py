@@ -8,7 +8,7 @@ async def fetch(url: str) -> str:
 
 
 async def main() -> None:
-    url = "https://api.open-meteo.com/v1/forecast?latitude=49.30&longitude=19.95&hourly=temperature_2m&current=temperature_2m"
+    url = "https://api.open-meteo.com/v1/forecast?latitude=49.3&longitude=19.95&current=temperature_2m&forecast_days=1"
     users = await fetch(url)
 
     print(users)
