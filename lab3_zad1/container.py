@@ -1,5 +1,4 @@
 from dependency_injector import containers, providers
-
 from repositories.posts_repository import PostsRepository
 from services.posts_services import PostsService
 

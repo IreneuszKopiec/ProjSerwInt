@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from datetime import datetime
 
 @dataclass
 class PostsRecord:
@@ -7,5 +6,4 @@ class PostsRecord:
     id: int
     title: str
     body: str
-
 
